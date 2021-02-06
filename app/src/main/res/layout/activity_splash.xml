@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Splash">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:padding="20dp"
+        android:orientation="vertical">
+
+        <ImageView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_marginTop="12dp"
+            android:src="@drawable/carlogin"></ImageView>
+
+
+
+        <TextView
+            android:layout_width="match_parent"
+            android:text="Driver Capp App"
+            android:fontFamily="@font/light"
+            android:textStyle="bold"
+            android:textColor="#F1C40F"
+            android:layout_marginTop="18dp"
+            android:gravity="center"
+            android:textSize="30sp"
+            android:layout_height="match_parent"></TextView>
+
+
+
+
+        <Button
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="@drawable/button_b"
+            android:textColor="@android:color/white"
+            android:text="SIgn up"
+            android:layout_marginTop="30dp"></Button>
+
+
+
+        <Button
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="@drawable/button_b"
+            android:textColor="@android:color/white"
+            android:text="Log in"
+            android:layout_marginTop="30dp"></Button>
+
+
+
+
+
+
+
+    </LinearLayout>
+
+
+
+
+</ScrollView>

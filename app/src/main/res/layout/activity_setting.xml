@@ -1,0 +1,89 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Setting">
+
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+
+        <androidx.appcompat.widget.Toolbar
+            android:layout_width="match_parent"
+            android:background="#F1C40F"
+            android:id="@+id/toolbar2"
+            android:layout_height="wrap_content">
+
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Setting"
+                android:textSize="25sp"
+                android:gravity="center"
+                android:textColor="@android:color/white"></TextView>
+
+        </androidx.appcompat.widget.Toolbar>
+<RelativeLayout
+    android:layout_width="match_parent"
+    android:layout_below="@id/toolbar2"
+    android:padding="20dp"
+    android:layout_height="match_parent">
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textSize="25sp"
+            android:fontFamily="@font/light"
+            android:id="@+id/notification"
+            android:textColor="@android:color/darker_gray"
+            android:text="Notifications"></TextView>
+
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textSize="20sp"
+        android:id="@+id/account"
+        android:drawableStart="@drawable/ic_account"
+        android:layout_below="@id/notification"
+        android:layout_marginTop="20dp"
+        android:textColor="@android:color/darker_gray"
+        android:text="   Account Status"></TextView>
+
+
+    <Switch
+        android:layout_width="wrap_content"
+        android:layout_marginTop="50dp"
+        android:layout_height="wrap_content"
+        android:layout_alignParentRight="true"
+        android:layout_toRightOf="@id/account"
+        android:gravity="bottom"></Switch>
+
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_marginTop="12dp"
+        android:textColor="@android:color/darker_gray"
+        android:drawableStart="@drawable/ic_contact"
+        android:layout_height="wrap_content"
+        android:textSize="20sp"
+        android:layout_below="@id/account"
+        android:text="   Contact"></TextView>
+
+
+
+</RelativeLayout>
+
+
+
+
+
+
+    </RelativeLayout>
+
+</ScrollView>

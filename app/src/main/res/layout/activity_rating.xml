@@ -1,0 +1,222 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Rating">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+        <androidx.appcompat.widget.Toolbar
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="#F1C40F">
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Earning"
+                android:textSize="25sp"
+                android:textColor="@android:color/white"
+                android:gravity="center"></TextView>
+        </androidx.appcompat.widget.Toolbar>
+
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:orientation="vertical"
+            android:layout_height="match_parent">
+
+
+            <ImageView
+                android:id="@+id/image1"
+                android:layout_width="111dp"
+                android:layout_height="108dp"
+                android:layout_gravity="center"
+                android:layout_marginTop="18dp"
+                android:src="@drawable/group"></ImageView>
+
+            <RatingBar
+                android:layout_width="wrap_content"
+                android:layout_gravity="center"
+                android:rating="4"
+                android:layout_height="wrap_content">
+            </RatingBar>
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:id="@+id/jhonnumber"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="8dp"
+                android:layout_below="@id/jhonname"
+                android:text="4.0"
+                android:textColor="#F1C40F"
+                android:textSize="20sp"
+                android:layout_gravity="center"></TextView>
+
+            <View
+                android:layout_width="match_parent"
+                android:layout_height="2dp"
+                android:background="#D0D3D4"
+                android:layout_marginTop="6dp"></View>
+
+
+        </LinearLayout>
+
+
+<HorizontalScrollView
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+    <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:padding="18dp"
+            android:layout_marginTop="20dp">
+
+            <androidx.cardview.widget.CardView
+                android:layout_width="130dp"
+                app:cardElevation="8dp"
+                app:cardCornerRadius="4dp"
+                android:layout_height="130dp">
+
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:textSize="18sp"
+                    android:textColor="@android:color/darker_gray"
+                    android:layout_marginTop="16dp"
+                    android:layout_marginLeft="20dp"
+                    android:text="Current\n   Rating"></TextView>
+
+
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:textSize="18sp"
+                    android:layout_marginBottom="20dp"
+                    android:layout_gravity="bottom|right"
+                    android:textColor="@android:color/black"
+                    android:layout_marginRight="18dp"
+                    android:text="4.0"></TextView>
+
+            </androidx.cardview.widget.CardView>
+
+
+            <androidx.cardview.widget.CardView
+                android:layout_width="130dp"
+                app:cardElevation="8dp"
+                android:layout_marginLeft="20dp"
+                app:cardCornerRadius="4dp"
+                android:layout_height="130dp">
+
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:textSize="18sp"
+                    android:textColor="@android:color/darker_gray"
+                    android:layout_marginTop="16dp"
+                    android:layout_marginLeft="20dp"
+                    android:text="Requests\n   Accepted"></TextView>
+
+
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:textSize="18sp"
+                    android:layout_marginBottom="20dp"
+                    android:layout_gravity="bottom|right"
+                    android:textColor="@android:color/black"
+                    android:layout_marginRight="18dp"
+                    android:text="0.0%"></TextView>
+
+            </androidx.cardview.widget.CardView>
+
+
+
+        <androidx.cardview.widget.CardView
+            android:layout_width="130dp"
+            app:cardElevation="8dp"
+            android:layout_marginLeft="20dp"
+            app:cardCornerRadius="4dp"
+            android:layout_height="130dp">
+
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textSize="18sp"
+                android:textColor="@android:color/darker_gray"
+                android:layout_marginTop="20dp"
+                android:layout_marginLeft="20dp"
+                android:text="Trips\n  Cancelled"></TextView>
+
+
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textSize="18sp"
+                android:layout_marginBottom="20dp"
+                android:layout_gravity="bottom|right"
+                android:textColor="@android:color/black"
+                android:layout_marginRight="18dp"
+                android:text="0.0%"></TextView>
+
+        </androidx.cardview.widget.CardView>
+
+    </LinearLayout>
+
+</HorizontalScrollView>
+
+
+
+
+
+        <androidx.cardview.widget.CardView
+            android:layout_width="match_parent"
+            android:layout_margin="20dp"
+            app:cardCornerRadius="4dp"
+            android:layout_height="50dp"
+            app:cardElevation="10dp">
+
+            <TextView
+                android:layout_width="match_parent"
+                android:textSize="25sp"
+                android:fontFamily="@font/light"
+                android:layout_gravity="center"
+                android:drawableEnd="@drawable/ic_right_arrow"
+                android:drawableStart="@drawable/ic_feedback"
+                android:textColor="#F1C40F"
+                android:layout_height="wrap_content"
+                android:text="  Rider FeedBack"></TextView>
+
+
+
+
+
+
+        </androidx.cardview.widget.CardView>
+
+
+
+    </LinearLayout>
+
+
+
+
+
+
+
+
+
+
+
+
+</ScrollView>

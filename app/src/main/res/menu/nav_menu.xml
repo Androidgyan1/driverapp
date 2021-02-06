@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+
+    <group android:checkableBehavior="single">
+
+        <item
+            android:id="@+id/home"
+            android:title="Home"
+            android:icon="@drawable/ic_home"></item>
+
+
+
+
+        <item
+            android:id="@+id/trip"
+            android:title="Trip"
+            android:icon="@drawable/ic_car_trip"></item>
+
+        <item
+            android:id="@+id/help"
+            android:title="Help"
+            android:icon="@drawable/ic_help"></item>
+
+
+        <item
+            android:id="@+id/aboutus"
+            android:title="About Us"
+            android:icon="@drawable/ic_about"></item>
+
+        <item
+            android:id="@+id/Privacypolicy"
+            android:title="Privacy policy"
+            android:icon="@drawable/ic_privacy_policy"></item>
+
+
+        <item
+            android:id="@+id/termcondition"
+            android:title="Term and Condition"
+            android:icon="@drawable/ic_terms_and_conditions"></item>
+
+
+        <item
+            android:id="@+id/refundpolicy"
+            android:title="Refund Policy"
+            android:icon="@drawable/ic_refund_policy"></item>
+
+
+        <item
+            android:id="@+id/logout"
+            android:title="Logout"
+            android:icon="@drawable/ic_logout"></item>
+
+
+
+
+
+    </group>
+
+
+
+
+
+</menu>

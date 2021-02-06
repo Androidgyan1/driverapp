@@ -1,0 +1,180 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Profile">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+
+        <androidx.appcompat.widget.Toolbar
+            android:layout_width="match_parent"
+            android:id="@+id/toolbar"
+            android:layout_height="wrap_content"
+            android:background="#F1C40F">
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Profile"
+                android:gravity="center"
+                android:textColor="@android:color/white"
+                android:textSize="30sp"></TextView>
+
+        </androidx.appcompat.widget.Toolbar>
+
+
+
+
+        <androidx.cardview.widget.CardView
+            android:layout_width="match_parent"
+            android:id="@+id/card1"
+            app:cardElevation="5dp"
+            android:layout_below="@id/toolbar"
+            android:layout_marginTop="2dp"
+            android:layout_height="match_parent">
+
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:orientation="vertical"
+                android:layout_height="match_parent">
+
+
+                <ImageView
+                    android:id="@+id/image1"
+                    android:layout_width="111dp"
+                    android:layout_height="108dp"
+                    android:layout_gravity="center"
+                    android:layout_marginTop="18dp"
+                    android:src="@drawable/group"></ImageView>
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:id="@+id/jhonname"
+                    android:layout_height="wrap_content"
+                    android:layout_below="@id/image1"
+                    android:text="Jhon Smith"
+                    android:layout_marginTop="4dp"
+                    android:textColor="@android:color/black"
+                    android:textSize="20sp"
+                    android:layout_gravity="center"></TextView>
+
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:id="@+id/jhonnumber"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="8dp"
+                    android:layout_below="@id/jhonname"
+                    android:text="9754875555"
+                    android:textColor="#F1C40F"
+                    android:textSize="18sp"
+                    android:layout_gravity="center"></TextView>
+
+                <View
+                    android:layout_width="match_parent"
+                    android:layout_height="2dp"
+                    android:background="#D0D3D4"
+                    android:layout_marginTop="6dp"></View>
+
+
+            </LinearLayout>
+
+        </androidx.cardview.widget.CardView>
+
+
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:layout_marginRight="16dp"
+            android:layout_marginLeft="16dp"
+            android:layout_marginTop="16dp"
+            android:layout_below="@id/card1">
+
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="User Name"
+                android:fontFamily="@font/light"
+                android:textSize="18sp"
+                android:textColor="@android:color/darker_gray"></TextView>
+
+
+            <EditText
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="5dp"
+                android:textColor="@android:color/black"
+                android:textAlignment="center"
+                android:background="@drawable/bg_color"
+                android:text="Jhon Smith"></EditText>
+
+
+
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Contact Number"
+                android:fontFamily="@font/light"
+                android:layout_marginTop="20dp"
+                android:textSize="18sp"
+                android:textColor="@android:color/darker_gray"></TextView>
+
+
+            <EditText
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textColor="@android:color/black"
+                android:background="@drawable/bg_color"
+                android:layout_marginTop="5dp"
+                android:textAlignment="center"
+                android:text="9754875555"></EditText>
+
+
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Email Id"
+                android:fontFamily="@font/light"
+                android:layout_marginTop="20dp"
+                android:textSize="18sp"
+                android:textColor="@android:color/darker_gray"></TextView>
+
+
+            <EditText
+                android:layout_width="match_parent"
+                android:layout_marginTop="5dp"
+                android:textColor="@android:color/black"
+                android:textAlignment="center"
+                android:background="@drawable/bg_color"
+                android:layout_height="wrap_content"
+                android:text="jhonsmit@gmail.com"></EditText>
+
+
+
+
+
+
+
+
+        </LinearLayout>
+
+
+
+
+
+
+    </RelativeLayout>
+
+
+</ScrollView>

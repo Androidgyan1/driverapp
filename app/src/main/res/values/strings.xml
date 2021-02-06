@@ -1,0 +1,7 @@
+<resources>
+    <string name="app_name">Driver app</string>
+
+    <string name="open">Open Navigation</string>
+    <string name="close">Close Navigation</string>
+
+</resources>
